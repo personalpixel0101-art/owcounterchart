@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overwatch DPS Guide</title>
+    <link rel="icon" href="./src/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="container">
+        
+        <header class="header-pill">
+            <div class="header-icon">
+                <img src="./src/dps.svg" class="header-ico">
+            </div>
+            <div class="header-text">
+                <h1>Overwatch DPS</h1>
+                <p>Counterpick Problem & Solution</p>
+            </div>
+        </header>
+
+        <section class="glass-section">
+            <div class="section-header border-red">
+                <h2 class="section-title">Presión de Dive en mi Backline</h2>
+                <p class="section-desc">Objetivo: Interceptar, pre-daño y castigar salida.</p>
+            </div>
+            
+            <div class="hero-grid">
+                <div class="hero-card" onclick="selectHero(this)"><img src="./src/img/8dc2a024c9b7d95c7141b2ef065590dbc8d9018d12ad15f76b01923986702228.png" alt="Ashe"></div>
+                <div class="hero-card" onclick="selectHero(this)"><img src="./src/img/6cfb48b5597b657c2eafb1277dc5eef4a07eae90c265fcd37ed798189619f0a5.png" alt="Cassidy"></div>
+                <div class="hero-card" onclick="selectHero(this)"><img src="./src/img/1533fcb0ee1d3f9586f84b4067c6f63eca3322c1c661f69bfb41cd9e4f4bcc11.png" alt="Mei"></div>
+                <div class="hero-card" onclick="selectHero(this)"><img src="./src/img/a53bf7ad9d2f33aaf9199a00989f86d4ba1f67c281ba550312c7d96e70fec4ea.png" alt="Sojourn"></div>
+                <div class="hero-card" onclick="selectHero(this)"><img src="./src/img/20b4ef00ed05d6dba75df228241ed528df7b6c9556f04c8070bad1e2f89e0ff5.png" alt="Soldier"></div>
+                <div class="hero-card" onclick="selectHero(this)"><img src="./src/img/bca8532688f01b071806063b9472f1c0f9fc9c7948e6b59e210006e69cec9022.png" alt="Sombra"></div>
+            </div>
+        </section>
+
+        <section class="glass-section">
+            <div class="section-header border-blue">
+                <h2 class="section-title">Tank Enemigo no muere</h2>
+                <p class="section-desc">Objetivo: Derretir frontline o colapsar cuando entren.</p>
+            </div>
+            
+            <div class="hero-grid">
+                <div class="hero-card" onclick="selectHero(this)"><img src="./src/img/2edb9af69d987bb503cd31f7013ae693640e692b321a73d175957b9e64394f40.png" alt="Reaper"></div>
+                <div class="hero-card" onclick="selectHero(this)"><img src="./src/img/4d715f722c42215072b5dd0240904aaed7b5285df0b2b082d0a7f1865b5ea992.png" alt="Bastion"></div>
+                <div class="hero-card" onclick="selectHero(this)"><img src="./src/img/037e3df083624e5480f8996821287479a375f62b470572a22773da0eaf9441d0.png" alt="Junkrat"></div>
+                <div class="hero-card" onclick="selectHero(this)"><img src="./src/img/f086bf235cc6b7f138609594218a8385c8e5f6405a39eceb0deb9afb429619fe.png" alt="Symmetra"></div>
+                <div class="hero-card" onclick="selectHero(this)"><img src="./src/img/1533fcb0ee1d3f9586f84b4067c6f63eca3322c1c661f69bfb41cd9e4f4bcc11.png" alt="Mei"></div>
+                <div class="hero-card" onclick="selectHero(this)"><img src="./src/img/1309ab1add1cc19189a2c8bc7b1471f88efa1073e9705d2397fdb37d45707d01.png" alt="Torbjörnn"></div>
+            </div>
+        </section>
+
+        <section class="glass-section">
+            <div class="section-header border-green">
+                <h2 class="section-title">Poke Agresivo control de ángulos</h2>
+                <p class="section-desc">Objetivo: Igualar rango o romper su posición.</p>
+            </div>
+            
+            <div class="hero-grid">
+                <div class="hero-card" onclick="selectHero(this)"><img src="./src/img/8dc2a024c9b7d95c7141b2ef065590dbc8d9018d12ad15f76b01923986702228.png" alt="Ashe"></div>
+                <div class="hero-card" onclick="selectHero(this)"><img src="./src/img/f086bf235cc6b7f138609594218a8385c8e5f6405a39eceb0deb9afb429619fe.png" alt="Echo"></div>
+                <div class="hero-card" onclick="selectHero(this)"><img src="./src/img/f8261595eca3e43e3b37cadb8161902cc416e38b7e0caa855f4555001156d814.png" alt="Pharah"></div>
+                <div class="hero-card" onclick="selectHero(this)"><img src="./src/img/a53bf7ad9d2f33aaf9199a00989f86d4ba1f67c281ba550312c7d96e70fec4ea.png" alt="Sojourn"></div>
+                <div class="hero-card" onclick="selectHero(this)"><img src="./src/img/20b4ef00ed05d6dba75df228241ed528df7b6c9556f04c8070bad1e2f89e0ff5.png" alt="Soldier 76"></div>
+                <div class="hero-card" onclick="selectHero(this)"><img src="./src/img/a714f1cb33cc91c6b5b3e89ffe7e325b99e7c89cc8e8feced594f81305147efe.png" alt="Widowmaker"></div>
+            </div>
+        </section>
+
+        <section class="glass-section">
+            <div class="section-header border-yellow">
+                <h2 class="section-title">Backline enemiga expuesta</h2>
+                <p class="section-desc">Objetivo: Forzar recursos o eliminar supports.</p>
+            </div>
+            
+            <div class="hero-grid">
+                <div class="hero-card" onclick="selectHero(this)"><img src="./src/img/f086bf235cc6b7f138609594218a8385c8e5f6405a39eceb0deb9afb429619fe.png" alt="Echo"></div>
+                <div class="hero-card" onclick="selectHero(this)"><img src="./src/img/4edf5ea6d58c449a2aeb619a3fda9fff36a069dfbe4da8bc5d8ec1c758ddb8dc.png" alt="Genji"></div>
+                <div class="hero-card" onclick="selectHero(this)"><img src="./src/img/bca8532688f01b071806063b9472f1c0f9fc9c7948e6b59e210006e69cec9022.png" alt="Sombra"></div>
+                <div class="hero-card" onclick="selectHero(this)"><img src="./src/img/a66413200e934da19540afac965cfe8a2de4ada593d9a52d53108bb28e8bbc9c.png" alt="Tracer"></div>
+                <div class="hero-card" onclick="selectHero(this)"><img src="./src/img/62f32041c5bdcb11bdaff6581fee2a9a372d8f61e117b36a1dc8ff6d0c8a1ead.png" alt="Vendetta"></div>
+                <div class="hero-card" onclick="selectHero(this)"><img src="./src/img/5d87623006ccc77578396831d4629f91b5162235a553b3f442e1a43161898e94.png" alt="Venture"></div>
+            </div>
+        </section>
+
+        <section class="glass-section">
+            <div class="section-header border-purple">
+                <h2 class="section-title">Caos / Team desordenado</h2>
+                <p class="section-desc">Objetivo: Ser estable y generar picks independientes.</p>
+            </div>
+            
+            <div class="hero-grid">
+                <div class="hero-card" onclick="selectHero(this)"><img src="./src/img/8dc2a024c9b7d95c7141b2ef065590dbc8d9018d12ad15f76b01923986702228.png" alt="Ashe"></div>
+                <div class="hero-card" onclick="selectHero(this)"><img src="./src/img/6cfb48b5597b657c2eafb1277dc5eef4a07eae90c265fcd37ed798189619f0a5.png" alt="Cassidy"></div>
+                <div class="hero-card" onclick="selectHero(this)"><img src="./src/img/a53bf7ad9d2f33aaf9199a00989f86d4ba1f67c281ba550312c7d96e70fec4ea.png" alt="Sojourn"></div>
+                <div class="hero-card" onclick="selectHero(this)"><img src="./src/img/20b4ef00ed05d6dba75df228241ed528df7b6c9556f04c8070bad1e2f89e0ff5.png" alt="Soldier 76"></div>
+                <div class="hero-card" onclick="selectHero(this)"><img src="./src/img/62f32041c5bdcb11bdaff6581fee2a9a372d8f61e117b36a1dc8ff6d0c8a1ead.png" alt="Vendetta"></div>
+                <div class="hero-card" onclick="selectHero(this)"><img src="./src/img/a714f1cb33cc91c6b5b3e89ffe7e325b99e7c89cc8e8feced594f81305147efe.png" alt="Widowmaker"></div>
+            </div>
+        </section>
+
+        <section class="glass-section">
+            <div class="section-header border-light-white">
+                <h2 class="section-title">Caos / Team desordenado</h2>
+                <p class="section-desc">Objetivo: Ser estable y generar picks independientes.</p>
+            </div>
+            
+            <div class="hero-grid">
+                <div class="hero-card" onclick="selectHero(this)"><img src="./src/img/8dc2a024c9b7d95c7141b2ef065590dbc8d9018d12ad15f76b01923986702228.png" alt="Ashe"></div>
+                <div class="hero-card" onclick="selectHero(this)"><img src="./src/img/6cfb48b5597b657c2eafb1277dc5eef4a07eae90c265fcd37ed798189619f0a5.png" alt="Cassidy"></div>
+                <div class="hero-card" onclick="selectHero(this)"><img src="./src/img/f086bf235cc6b7f138609594218a8385c8e5f6405a39eceb0deb9afb429619fe.png" alt="Echo"></div>
+                <div class="hero-card" onclick="selectHero(this)"><img src="./src/img/a53bf7ad9d2f33aaf9199a00989f86d4ba1f67c281ba550312c7d96e70fec4ea.png" alt="Sojourn"></div>
+                <div class="hero-card" onclick="selectHero(this)"><img src="./src/img/20b4ef00ed05d6dba75df228241ed528df7b6c9556f04c8070bad1e2f89e0ff5.png" alt="Soldier 76"></div>
+                <div class="hero-card" onclick="selectHero(this)"><img src="./src/img/a714f1cb33cc91c6b5b3e89ffe7e325b99e7c89cc8e8feced594f81305147efe.png" alt="Widowmaker"></div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
